@@ -1,6 +1,6 @@
-# SPSI
+# Simple PostScript Interpreter (SPSI) 
 ![GitHub](https://img.shields.io/github/license/imclerran/spsi)
-## Simple PostScript Interpreter
+<br>
 _SPSI is a python based interpreter for Simplified PostScript (SPS)._
 
 ### Supported Operators:
