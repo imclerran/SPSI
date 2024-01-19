@@ -485,7 +485,8 @@ def interpretSPS(tokenL,scope):
                     raise Exception("Error: Invalid scope type.")
                 if callable(res): #c is an operator
                     raise Exception("""This code should never be excecuted, since design has been changed so that built in operators are no longer stored in dictstack.
-                                       This change contradicts standard PostScript design (built in operators are the first dict in stack), but has been added to support unit tests for SSPS.""")
+                                       This change contradicts standard PostScript design (built in operators are the first dict in stack), but has been added to support 
+                                       unit tests for SSPS.""")
                     res()
                 elif list is type(res): #c is  function (code array)
                     link = len(dictstack) - 1
